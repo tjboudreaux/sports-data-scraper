@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "cli": "^0.10.0",
+    "x-ray": "^2.0.2"
+  },
+  "name": "espn-scraper",
+  "version": "0.0.1",
+  "description": "A web scraper of sports data from ESPN.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "scrape-ncaa": "node ./src/commands/ncaa-football.js"
+  },
+  "keywords": [
+    "sports",
+    "espn",
+    "scraping",
+    "data"
+  ],
+  "author": "Travis Boudreaux",
+  "license": "ISC"
+}
